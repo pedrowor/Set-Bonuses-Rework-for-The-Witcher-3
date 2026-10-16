@@ -41,18 +41,3 @@ Make the forgotten wolf a bit more creative maybe to futher push the playstyle t
 Make the wolf set have reliable and innate bleed chance for people who don't use Skill Tree Reforged
 Make the bear set have a vitality effect instead of just when taking damage, when quen breaks > damage bonus based on sign intensity and when vitality is damaged > damage based on maximum vitality
 Better balance for all sets.
-
-
-
-
-changelog
-=========
-
-0.4
-- Added seven On/Off switches under Options > Mods > Set Bonuses Rework
-- All switches default to ON. Each switch controls the whole rework (both 3pc and 6pc). OFF restores the original game/Remaster bonuses for that school.
-
-0.3
-- Added Cat School Rework
-- Reverted Griffin School Yrden bonuses for now
-- Enabled set bonuses for every tier of equipment carrying a recognised school/set tag, including lower tiers and their New Game Plus equivalents.
