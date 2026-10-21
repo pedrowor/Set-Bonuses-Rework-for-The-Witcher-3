@@ -1,4 +1,4 @@
-This is a mod for The Witcher 3 that changes how some game-mechanics works, The Wuitcher 3 scripts are a proprietary, strongly-typed, class-based object-oriented language that is based on ActionScript 3 and UnrealScript.
+This is a mod for The Witcher 3 that changes how some game-mechanics works, The Witcher 3 scripts are a proprietary, strongly-typed, class-based object-oriented language that is based on ActionScript 3 and UnrealScript.
 
 Below is information about the mod: 
 Set Bonuses Rework
