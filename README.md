@@ -1,43 +1,26 @@
-This is a mod for The Witcher 3 that changes how some game-mechanics works, The Witcher 3 scripts are a proprietary, strongly-typed, class-based object-oriented language that is based on ActionScript 3 and UnrealScript.
+# The Witcher 3 — Set Bonuses Rework
 
-Below is information about the mod: 
-Set Bonuses Rework
+A personal modding project exploring scripted changes to **The Witcher 3** equipment-set mechanics. It uses the game's proprietary scripting environment and documents proposed and implemented gameplay rules.
 
-Set Bonuses that are changed for now - Bear / Griffin / Manticore / Wolf / Viper / Forgotten Wolf / Cat
-Remastered 5.x, annotation-only (it doesn't replace any vanilla scripts for maximum compatability)
+## Scope
+The documented design covers Wolf, Bear, Griffin, Cat, Viper, Manticore, and Forgotten Wolf equipment sets, emphasizing different combat styles such as bleeding, critical hits, signs, and bombs.
 
-How to Install > simply copy Mods/modSetBonusRework into <Witcher 3>/mods/ or use TW3 Mod Manager.
+The repository currently contains a detailed design description and a **medallion addon ZIP archive**. It is **not a complete source-code repository for the main set-bonus rework**, so the README should not be interpreted as proof that every documented feature is included and tested here.
 
-WHAT EACH SET DOES:
-Wolf School 3pc - Each instance of Bleeding applied to enemies increases sword damage by 3% for each piece of the Set.
-Wolf School 6pc - Each Adrenaline Point increases the possible number of Bleeding effects that can be applied to a single enemy. 5% Vitality Drain per bleed Instance.
+## Available artifact
+- `Witcher_Medallions_Addon_0.1.5_Combined.zip`: addon archive. Consult its contents and compatibility requirements before installing.
 
-Bear School 3pc - Vanilla
-Bear School 6pc - When a Quen shield shatters or when you take damage gain 0.5% Strong Attack Damage per 1% of Quen sign intensity for the next 2 heavy attacks, lasts 20 seconds.
+## Technical interests
+- Game scripting and modification
+- Gameplay rule design and balancing
+- Debugging, compatibility and iterative testing
+- Documentation of expected behavior
 
-Griffin School 3pc - Vanilla
-Griffin School 6pc - The size of Yrden traps is increased by 40%. 
-                     While you are within an Yrden trap, Stamina regeneration is increased by 5/s and Sign Intensity by 100%, and damage taken is reduced by 20%.
-                     After casting a Sign, the next three melee attacks deal additional damage equal to 20% Sign intensity.
+## Installation and compatibility
+Installation depends on the exact game version and the archive's contents. Back up your installation and saves, inspect the archive, and verify compatibility with other mods before using it.
 
-Manticore School 3pc - Vanilla
-Manticore School 6pc - Each point of Toxicity increases damage dealt by swords and Sign Intensity by 0.25%.
-                       Each point of Toxicity also increased damage dealt by bombs by +0.5%.
-                    
-Forgotten Wolf Set 3pc - While Under the effect of any potions increase Sign Intensity and Attack Damage by 10% for each piece of the Set.
-Forgotten Wolf Set 6pc - After using a sign your next 3 sword attack or bomb deals +50% more damage.
-                         After a Melee attack or a bomb throw increased sign intensity by 50%.
+## Development status
+The design and feature descriptions may evolve. This repository does not contain an automated test suite or a complete source release for the primary rework.
 
-Viper School 3pc - Poisoned weapons deal +5% additional damage or 10% against poison-immune targets for each piece of the Set.
-Viper School 6pc - If using the appropriate oil gain additional 1%/3%/5% Critical Chance, 5%/5%/10% Critical Damage and Take 1%/2%/4% Damage from Poisoned Enemies.
-                   Bonuses scale with the level of the oil, Standard Oil/Enchanced Oil/Superior Oil.
-
-Cat School 3pc - If the enemy is suffering from a Bleed and/or Poison increase your Critical Hit Chance by 3% and Critical Hit Damage by 6% for each piece of the Set.
-Cat School 6pc - 2% Increased Light Attack Speed for each piece of the Set per Adrenaline Point.
-
-to-do:
-Introduce potions effects in the manticore armour
-Make the forgotten wolf a bit more creative maybe to futher push the playstyle towards a mix of everything
-Make the wolf set have reliable and innate bleed chance for people who don't use Skill Tree Reforged
-Make the bear set have a vitality effect instead of just when taking damage, when quen breaks > damage bonus based on sign intensity and when vitality is damaged > damage based on maximum vitality
-Better balance for all sets.
+## Next documentation steps
+Publish a clear release/version matrix, changelog, known incompatibilities, tested game versions, and source or build steps for any code distributed here.
